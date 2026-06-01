@@ -262,7 +262,8 @@ ingressRoute:
   middlewares: []
   # -- TLS configuration
   tls: {}
-
+httpRouter:
+  enabled: false
 # -- Persistence configuration
 persistence:
   # -- Enable persistent storage
